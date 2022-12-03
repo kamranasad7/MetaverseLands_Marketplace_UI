@@ -1,0 +1,36 @@
+.bg {
+    background-image: url('../assets/bg.jpg');
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.map {
+    background-image: url('../assets/map.jpg');
+}
+.shop-row {
+    display: flex;
+}
+
+.shop {
+    cursor: pointer;
+    border: 2px white solid;
+    transition: all 0.2s linear;
+    padding: 1rem;
+    color: white;
+}
+
+.shop:hover {
+    background-color: white;
+    color: transparent;
+    color: #0826ff;
+}
+
+.floorNo {
+    font-size: 2rem;
+    color: darkgoldenrod;
+    font-weight: 700;
+    position: absolute;
+    z-index: 2;
+    left: 1rem;
+}
