@@ -1,7 +1,7 @@
 import React from "react";
 import "../css/Map.css"
 
-const Map = ({ floorConfig }) => {
+const Map = ({ floorConfig, openShop }) => {
 
     return (
         <div className="bg">
@@ -15,7 +15,7 @@ const Map = ({ floorConfig }) => {
                         <div className="shop-row" key={i}>
                             {row.map(shop => {
                                 return (
-                                    <div className="shop" key={shop.shopNo}>
+                                    <div className="shop" key={shop.shopNo} onClick={() => openShop(shop)}>
                                         Shop {shop.shopNo}
                                     </div>
                                 )

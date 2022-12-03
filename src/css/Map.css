@@ -3,13 +3,17 @@
     display: flex;
     justify-content: center;
     position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .map {
     background-image: url('../assets/map.jpg');
+    background-size: contain;
 }
 .shop-row {
     display: flex;
+    margin: 1rem 5rem;
 }
 
 .shop {
